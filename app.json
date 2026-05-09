@@ -2,6 +2,7 @@
   "expo": {
     "name": "pomodoro",
     "slug": "pomodoro",
+    "jsEngine": "jsc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +21,22 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.erikai.pomodoro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "87632f82-d5b0-4f39-b8fd-c3e92cf98fe9"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/87632f82-d5b0-4f39-b8fd-c3e92cf98fe9"
     }
   }
 }
